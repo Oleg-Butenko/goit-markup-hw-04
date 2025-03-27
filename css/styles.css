@@ -75,6 +75,8 @@ img {
 
 .header {
   border-bottom: 1px solid #e7e9fc;
+  box-shadow: 0 1px 6px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 2px 1px 0 rgba(46, 47, 66, 0.08);
 }
 .header-logo {
   font-size: 18px;
@@ -121,7 +123,11 @@ img {
   color: #404bbf;
 }
 
-.current:active::after {
+.current {
+  color: #404bbf;
+}
+
+.current:after {
   position: absolute;
   bottom: 0;
   content: '';
@@ -195,7 +201,7 @@ img {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  max-width: 1440рх;
+  max-width: 1440px;
   margin: 0 auto;
 }
 
@@ -339,11 +345,11 @@ img {
 
 .team-item-link:hover,
 .team-item-link:focus {
-  background-color: #31d0aa;
+  background-color: #404bbf;
 }
 
 .team-item-icon {
-  fill: #fff;
+  fill: #f4f4fd;
 }
 
 /* ----------------------TEAM----------------------- */
@@ -401,6 +407,11 @@ img {
 
 .porfolio-item:hover .portfolio-item-overlay {
   transform: translateY(0);
+}
+
+.porfolio-item:hover {
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .portfolio-item-content {
