@@ -391,10 +391,9 @@ img {
 
 .portfolio-item-overlay {
   background-color: #4d5ae5;
-  padding-top: 40px;
-  padding-left: 32px;
+  padding: 40px 32px;
   padding-right: 32px;
-  color: #fff;
+  color: #f4f4fd;
   position: absolute;
   top: 0;
   left: 0;
